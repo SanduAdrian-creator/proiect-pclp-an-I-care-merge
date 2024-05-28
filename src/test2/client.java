@@ -1,8 +1,7 @@
 package test2;
 
-public class client {
-	private int ID, buget;
-	private String nume;
+public class client extends persoana{
+	private int buget;
 	private int card_bancar;
 	private cos cosul;
 	

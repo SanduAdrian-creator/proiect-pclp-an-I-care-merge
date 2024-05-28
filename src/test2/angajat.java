@@ -1,8 +1,8 @@
 package test2;
 
-public class angajat {
-	private int ID, salariu;
-	private String functie, nume, prenume;
+public class angajat extends persoana{
+	private int salariu;
+	private String functie;
 	
 	public void adaugaProdus(Produs p) {
 		

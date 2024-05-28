@@ -35,6 +35,10 @@ public class Produs {
 		this.setId(id);
 	}
 	
+	public void afisareProdus() {
+		System.out.println(id + " " + nume + " " + valabilitate + " " + disponibilitate + " " + pret + " " + expira_zi + " " + expira_luna + " " + expira_an + " " + type);
+	}
+	
 	public void setNume(String x) {
 		this.nume = x;
 	}
